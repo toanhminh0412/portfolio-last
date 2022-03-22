@@ -95,7 +95,15 @@ header {
 }
 
 .project-item {
+    position: relative;
     margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.item-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 
 @media only screen and (min-width: 600px) {
