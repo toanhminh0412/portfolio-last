@@ -78,6 +78,16 @@ header {
     margin-right: auto;
 }
 
+.skill-heading {
+    margin-top: 40px;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
 .favorite-saying {
     font-size: 100%;
     font-weight: 400;
@@ -88,6 +98,10 @@ header {
     font-size: 200%;
     font-weight: 700;
     margin-top: 20px;
+}
+
+.recent-project-subheading {
+    font-size: 120%;
 }
 
 .project-showcase {
@@ -104,6 +118,22 @@ header {
     position: absolute;
     bottom: 20px;
     left: 20px;
+}
+
+.btn-case {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-btn {
+    background-color: rgb(59 130 246);
+    color:white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.code-btn {
+    margin-left: auto;
 }
 
 @media only screen and (min-width: 600px) {
